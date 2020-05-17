@@ -1,0 +1,28 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+
+# Application specific files
+venv
+node_modules
+bin
+
+.vscode
+.idea
+.env
+
+# Compiled Golang files
+*.pb.go
+*.pb.validate.go
+
+# Compiled Python files
+*.pyc
