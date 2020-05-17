@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# Create a new directory and enter it
+function mkd() {
+	mkdir -p "$@" && cd "$_";
+}
+
+# Docker
+export DOCKER_IP=127.0.0.1
+docker-ip() {
+   docker inspect --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "$@"
+}
+
+docker-ips() {
+   docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+}
+
+uuid() {
+   #uuidgen | awk '{print tolower($0)}'
+   uuidgen | awk '{gsub("-","",$0); print tolower($0)}'
+}
+
+ip() {
+   ipconfig getifaddr en0
+}
