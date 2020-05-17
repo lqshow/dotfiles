@@ -15,10 +15,13 @@ Thumbs.db
 venv
 node_modules
 bin
-
-.vscode
-.idea
 .env
+
+# VSCODE
+.vscode
+
+# IntelliJ IDEA IDE
+.idea
 
 # Compiled Golang files
 *.pb.go
@@ -26,3 +29,7 @@ bin
 
 # Compiled Python files
 *.pyc
+
+# Files that contain credentials or personal info
+.aws/
+.s3cfg
