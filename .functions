@@ -15,8 +15,11 @@ docker-ips() {
    docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
 }
 
+uuid-dash() {
+   uuidgen | awk '{print tolower($0)}'
+}
+
 uuid() {
-   #uuidgen | awk '{print tolower($0)}'
    uuidgen | awk '{gsub("-","",$0); print tolower($0)}'
 }
 

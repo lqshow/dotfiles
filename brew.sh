@@ -28,7 +28,7 @@ if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
 fi;
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install vim
 brew install openssh
 brew install screen
 
