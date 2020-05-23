@@ -65,6 +65,7 @@ brew install stern
 
 # Install GUI Tools
 brew cask install sequel-pro
+brew cask install sourcetree
 
 # Remove outdated versions from the cellar.
 brew cleanup
