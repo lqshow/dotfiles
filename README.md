@@ -34,6 +34,23 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 )
 ````
 
+## ZSH prompt
+```bash
+npm install -g spaceship-prompt
+```
+## Tmux Plugin Manager
+
+> Press prefix + I (capital i, as in Install) to fetch the plugin.
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+```bash
+# Reload TMUX environment:
+tmux source-file ~/.tmux.conf
+```
+
 ## References
 - [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [macOS Setup Guide](https://sourabhbajaj.com/mac-setup/)

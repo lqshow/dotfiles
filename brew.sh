@@ -50,12 +50,14 @@ brew install parquet-eools
 brew install kafkacat
 brew install fzf
 brew install expect
+brew install protobuf
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 
 # Install dev
 brew install go
 brew install redis
 brew install thrift
+brew install node
 
 # Install k8s tools
 brew install kubectl
@@ -66,6 +68,7 @@ brew install stern
 # Install GUI Tools
 brew cask install sequel-pro
 brew cask install sourcetree
+brew cask install typora
 
 # Remove outdated versions from the cellar.
 brew cleanup
