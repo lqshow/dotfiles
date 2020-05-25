@@ -51,6 +51,7 @@ brew install kafkacat
 brew install fzf
 brew install expect
 brew install protobuf
+brew install telnet
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 
 # Install dev
@@ -69,6 +70,10 @@ brew install stern
 brew cask install sequel-pro
 brew cask install sourcetree
 brew cask install typora
+brew cask install sublime-text
+
+# Install GUI Other
+brew cask install neteasemusic
 
 # Remove outdated versions from the cellar.
 brew cleanup
