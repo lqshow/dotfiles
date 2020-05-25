@@ -51,6 +51,13 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux source-file ~/.tmux.conf
 ```
 
+## Nodejs
+
+### nvm
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
 ## References
 - [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [macOS Setup Guide](https://sourabhbajaj.com/mac-setup/)

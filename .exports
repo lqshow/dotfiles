@@ -14,3 +14,14 @@ export BASH_SILENCE_DEPRECATION_WARNING=1;
 
 # krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# Golang
+export GOROOT=/usr/local/Cellar/go/1.14.3/libexec
+export GOPATH=/Users/linqiong/workspace/app/golang/lib
+export PATH=$PATH:$(go env GOPATH)/bin
+export PATH=$PATH:/usr/local/bin
+export GOPROXY=https://goproxy.cn
+
+# nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
