@@ -22,6 +22,18 @@ export PATH=$PATH:$(go env GOPATH)/bin
 export PATH=$PATH:/usr/local/bin
 export GOPROXY=https://goproxy.cn
 
-# nvm
+# kubeconfig
+export KUBECONFIG_PATH=/Users/linqiong/workspace/k8s/kubeconfig/basebit
+
+# Kubernetes
+export KUBECONFIG=$HOME/.kube/config:$KUBECONFIG_PATH/aws-dev-kubeconfig-xdp-fuwu:$KUBECONFIG_PATH/aws-dev-kubeconfig-xdp-system-qiong-lin:$KUBECONFIG_PATH/aws-uat-kubeconfig-xdp-fuwu-qiong-lin:$KUBECONFIG_PATH/aws-uat-kubeconfig-xdp-system-qiong-lin:$KUBECONFIG_PATH/config_221:$KUBECONFIG_PATH/cluster-184-context:$KUBECONFIG_PATH/enigma2-mesh-staging
+
+# NVM
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+# python
+export PATH=$PATH:/usr/local/opt/python@3.8/bin
+export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
+export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"
+

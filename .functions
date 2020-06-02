@@ -26,3 +26,19 @@ uuid() {
 ip() {
    ipconfig getifaddr en0
 }
+
+# port forwarding 
+fwd() {
+   sudo -S kubefwd svc -n enigma2 \
+	-l "app in (
+	enigma2-awsx-awsd, \
+	enigma2-accountx, \
+	enigma2-project-api, \
+	enigma2-fuwu-api, \
+        enigma2-datasetx, \
+        enigma2-accountx, \
+        enigma2-workflow-api, \
+	enigma2-report-reportx \
+	)" \
+	-c=$KUBECONFIG_PATH/cluster-184-context
+}
