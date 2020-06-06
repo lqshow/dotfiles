@@ -68,16 +68,5 @@ brew install stern
 brew install txn2/tap/kubefwd
 brew install helm
 
-# Install GUI Tools
-brew cask install sequel-pro
-brew cask install sourcetree
-brew cask install typora
-brew cask install sublime-text
-brew cask install gas-mask
-brew cask install joplin
-
-# Install GUI Other
-brew cask install neteasemusic
-
 # Remove outdated versions from the cellar.
 brew cleanup
