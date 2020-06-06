@@ -99,6 +99,22 @@ else
 fi
 ```
 
+## conda
+
+```bash
+conda create --name bang_0.7.2 python=2.7
+```
+
+## bang
+
+```bash
+conda activate bang_0.7.2
+cd bang
+pip install --upgrade pip
+pip install -r requirements.txt
+./setup.py install
+```
+
 ## References
 - [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [macOS Setup Guide](https://sourabhbajaj.com/mac-setup/)

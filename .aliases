@@ -2,7 +2,10 @@
 
 # Shortcuts
 alias dl="cd ~/Downloads"
-
+alias ws="cd ~/workspace"
+alias wjw="cd ~/workspace/wjw"
+alias bb="cd ~/workspace/basebit"
+alias bbg="cd ~/workspace/basebit/gitlab"
 
 
 # Detect which `ls` flavor is in use
