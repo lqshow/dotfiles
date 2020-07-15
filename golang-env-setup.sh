@@ -9,7 +9,7 @@ go get -u -v github.com/golang/protobuf/protoc-gen-go && \
     go get -v github.com/gogo/protobuf/protoc-gen-gogo@v1.2.1 && \
     go get -v github.com/rogpeppe/godef && \
     go get -u -v github.com/lyft/protoc-gen-validate && \
-    go get -v github.com/envoyproxy/protoc-gen-validate && \
+    go get -u -v github.com/envoyproxy/protoc-gen-validate && \
     go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway && \
     go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger && \
     go get -u -v golang.org/x/tools/cmd/goimports && \

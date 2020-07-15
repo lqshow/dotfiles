@@ -14,7 +14,7 @@ brew cask install joplin
 brew cask install dropbox
 brew cask install spectacle
 brew cask install gyazo
-
+brew cask install notion
 
 # browsers
 brew cask install chromium

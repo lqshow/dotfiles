@@ -52,6 +52,7 @@ brew install fzf
 brew install expect
 brew install protobuf
 brew install telnet
+brew install grpcurl
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 
 # Install dev
